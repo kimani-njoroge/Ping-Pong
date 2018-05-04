@@ -21,7 +21,7 @@ The repository contains a ping pong game whose purpose is to display ping to num
 * It can divide multiples of 5 and display pong.
     * Example Input: 5
     * Example Output:[1,2,3,4,pong]
-* It can count up to the provided number.
+* It can divide multiples of 3 and 5 and display pingpong.
     * Example Input: 15
     * Example Output:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,pingpong]
 
