@@ -1,7 +1,6 @@
 .jumbo{
   width: 100%;
   text-align: center;
-  font-size: 50px;
   background-color: orange;
   height: 250px;
 
@@ -10,16 +9,28 @@
   margin: auto;
   width: 60%;
   padding: 3%;
+  font-family: 'Indie Flower', cursive;
 }
 .container{
   background-color: grey;
   width: 100%;
   height: auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 29px;
+}
+.row{
+  height: auto;
 }
 .col-md-3{
-  height: auto;
+  height: inherit;
   background-color: green;
 }
 .col-md-9{
-  height: auto;
+  height: inherit;
+}
+.col1{
+  text-decoration: none;
+}
+a{
+  color: #c9cbce
 }
