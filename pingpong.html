@@ -10,50 +10,51 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="jumbo">
-      <div class="center">
-        <h1>Ping-Pong</h1>
+    <div class="wrap">
+      <div class="jumbo">
+        <div class="center">
+          <h1>Ping-Pong</h1>
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="col1">
-            <h2><strong>About Ping Pong</strong></h2>
-            <p><strong>Created by:</strong></p>
-                Kimani Njoroge<br>
-            <p><strong>Github Username/URL:</strong></p>
-                <a href="https://github.com/kimani-njoroge">kimani-njoroge</a>
-            <p><strong>Level 2 Test for:</strong></p>
-                Java
+      <div class="container">
+        <div class="ping row">
+          <div class="col-md-3">
+            <div class="col1">
+              <h2><strong>About Ping Pong</strong></h2>
+              <p><strong>Created by:</strong></p>
+                  Kimani Njoroge<br>
+              <p><strong>Github Username/URL:</strong></p>
+                  <a href="https://github.com/kimani-njoroge">kimani-njoroge</a>
+              <p><strong>Level 2 Test for:</strong></p>
+                  Java
+            </div>
+          </div>
+          <div class="col-md-9">
+            <h3><strong>Let's Play!</strong></h3>
+                <strong>Rules</strong><br>
+
+              <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+
+                <ol>
+                  <li>Numbers divisible by 3 become "ping"</li>
+                  <li>Numbers divisible by 5 become "pong"</li>
+                  <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+                </ol>
+
+              <form id="input">
+                <label for="num">Enter your number here:</label>
+                <input id="num" type="text">
+                <button type="submit" class="btn">Change</button>
+              </form>
+              <div>
+                <ul id="output">
+
+                </ul>
+              </div>
           </div>
         </div>
-        <div class="col-md-9">
-          <h3><strong>Let's Play!</strong></h3>
-              <strong>Rules</strong><br>
 
-            <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-
-              <ol>
-                <li>Numbers divisible by 3 become "ping"</li>
-                <li>Numbers divisible by 5 become "pong"</li>
-                <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-              </ol>
-
-            <form id="input">
-              <label for="num">Enter your number here:</label>
-              <input id="num" type="text">
-              <button type="submit" class="btn">Change</button>
-            </form>
-            <div>
-              <ul id="output">
-
-              </ul>
-            </div>
         </div>
-      </div>
-
-      </div>
-
+    </div>
   </body>
 </html>

@@ -18,9 +18,7 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 29px;
 }
-.row{
-  height: auto;
-}
+
 .col-md-3{
   height: inherit;
   background-color: green;
@@ -33,4 +31,12 @@
 }
 a{
   color: #c9cbce
+}
+.btn{
+  background-color: #CB9552;
+  padding: 10px;
+  border-radius: 17px;
+}
+.ping{
+  padding-bottom: 200px;
 }
